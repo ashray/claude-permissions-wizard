@@ -49,7 +49,8 @@ cp -r claude-permissions-wizard/skills/configure-permissions ~/.claude/skills/
 | System utils (ls, find, grep…) | Allow | Allow | — | You choose |
 | Web search & fetch | Allow | Allow | Allow | You choose |
 | MCP tools | Auto-allow | Auto-allow | Ask | You choose |
-| Destructive commands (rm -rf, sudo, force-push…) | **Ask** | **Ask** | Ask | You choose |
+| Destructive commands (rm -rf, sudo, force-push, mkfs…) | **Ask** | **Ask** | Ask | You choose |
+| Security caution (chmod, curl\|bash, redirects…) | **Ask** | Allow | Ask | You choose |
 
 **Ask** = Claude prompts you once before running. Not blocked, just confirmed.
 
