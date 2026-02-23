@@ -15,7 +15,7 @@ An interactive wizard skill for [Claude Code](https://docs.anthropic.com/en/docs
 ### Option A: Plugin Marketplace (easiest)
 
 ```
-/install-skill ashraymalhotra/claude-permissions-wizard
+/install-skill ashray/claude-permissions-wizard
 ```
 
 ### Option B: Manual Copy
@@ -25,14 +25,14 @@ An interactive wizard skill for [Claude Code](https://docs.anthropic.com/en/docs
 mkdir -p ~/.claude/skills/configure-permissions
 
 # Download the skill file
-curl -sL https://raw.githubusercontent.com/ashraymalhotra/claude-permissions-wizard/main/skills/configure-permissions/SKILL.md \
+curl -sL https://raw.githubusercontent.com/ashray/claude-permissions-wizard/main/skills/configure-permissions/SKILL.md \
   -o ~/.claude/skills/configure-permissions/SKILL.md
 ```
 
 ### Option C: Git Clone
 
 ```bash
-git clone https://github.com/ashraymalhotra/claude-permissions-wizard.git
+git clone https://github.com/ashray/claude-permissions-wizard.git
 cp -r claude-permissions-wizard/skills/configure-permissions ~/.claude/skills/
 ```
 
