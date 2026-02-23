@@ -131,11 +131,8 @@ Only proceed with these rounds if the user picked "Custom" in Q2.
     ],
     "ask": [
       "Bash(rm -rf *)", "Bash(rm -r *)", "Bash(git push --force *)",
-      "Bash(git push -f *)", "Bash(sudo *)", "Bash(chmod 777 *)",
-      "Bash(chmod -R *)", "Bash(mkfs *)", "Bash(dd *)",
-      "Bash(git reset --hard *)", "Bash(git clean -f *)",
-      "Bash(> *)", "Bash(curl * | bash*)", "Bash(curl * | sh*)",
-      "Bash(wget * | bash*)"
+      "Bash(git push -f *)", "Bash(sudo *)", "Bash(mkfs *)", "Bash(dd *)",
+      "Bash(git reset --hard *)", "Bash(git clean -f *)"
     ]
   }
 }
